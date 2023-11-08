@@ -123,6 +123,154 @@ test/fast:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
+#=============================================================================
+# Target rules for targets named log
+
+# Build rule for target.
+log: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 log
+.PHONY : log
+
+# fast build rule for target.
+log/fast:
+	$(MAKE) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/build
+.PHONY : log/fast
+
+src/buffer.o: src/buffer.cpp.o
+
+.PHONY : src/buffer.o
+
+# target to build an object file
+src/buffer.cpp.o:
+	$(MAKE) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/src/buffer.cpp.o
+.PHONY : src/buffer.cpp.o
+
+src/buffer.i: src/buffer.cpp.i
+
+.PHONY : src/buffer.i
+
+# target to preprocess a source file
+src/buffer.cpp.i:
+	$(MAKE) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/src/buffer.cpp.i
+.PHONY : src/buffer.cpp.i
+
+src/buffer.s: src/buffer.cpp.s
+
+.PHONY : src/buffer.s
+
+# target to generate assembly for a file
+src/buffer.cpp.s:
+	$(MAKE) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/src/buffer.cpp.s
+.PHONY : src/buffer.cpp.s
+
+src/format.o: src/format.cpp.o
+
+.PHONY : src/format.o
+
+# target to build an object file
+src/format.cpp.o:
+	$(MAKE) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/src/format.cpp.o
+.PHONY : src/format.cpp.o
+
+src/format.i: src/format.cpp.i
+
+.PHONY : src/format.i
+
+# target to preprocess a source file
+src/format.cpp.i:
+	$(MAKE) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/src/format.cpp.i
+.PHONY : src/format.cpp.i
+
+src/format.s: src/format.cpp.s
+
+.PHONY : src/format.s
+
+# target to generate assembly for a file
+src/format.cpp.s:
+	$(MAKE) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/src/format.cpp.s
+.PHONY : src/format.cpp.s
+
+src/log.o: src/log.cpp.o
+
+.PHONY : src/log.o
+
+# target to build an object file
+src/log.cpp.o:
+	$(MAKE) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/src/log.cpp.o
+.PHONY : src/log.cpp.o
+
+src/log.i: src/log.cpp.i
+
+.PHONY : src/log.i
+
+# target to preprocess a source file
+src/log.cpp.i:
+	$(MAKE) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/src/log.cpp.i
+.PHONY : src/log.cpp.i
+
+src/log.s: src/log.cpp.s
+
+.PHONY : src/log.s
+
+# target to generate assembly for a file
+src/log.cpp.s:
+	$(MAKE) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/src/log.cpp.s
+.PHONY : src/log.cpp.s
+
+src/loop.o: src/loop.cpp.o
+
+.PHONY : src/loop.o
+
+# target to build an object file
+src/loop.cpp.o:
+	$(MAKE) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/src/loop.cpp.o
+.PHONY : src/loop.cpp.o
+
+src/loop.i: src/loop.cpp.i
+
+.PHONY : src/loop.i
+
+# target to preprocess a source file
+src/loop.cpp.i:
+	$(MAKE) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/src/loop.cpp.i
+.PHONY : src/loop.cpp.i
+
+src/loop.s: src/loop.cpp.s
+
+.PHONY : src/loop.s
+
+# target to generate assembly for a file
+src/loop.cpp.s:
+	$(MAKE) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/src/loop.cpp.s
+.PHONY : src/loop.cpp.s
+
+src/sink.o: src/sink.cpp.o
+
+.PHONY : src/sink.o
+
+# target to build an object file
+src/sink.cpp.o:
+	$(MAKE) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/src/sink.cpp.o
+.PHONY : src/sink.cpp.o
+
+src/sink.i: src/sink.cpp.i
+
+.PHONY : src/sink.i
+
+# target to preprocess a source file
+src/sink.cpp.i:
+	$(MAKE) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/src/sink.cpp.i
+.PHONY : src/sink.cpp.i
+
+src/sink.s: src/sink.cpp.s
+
+.PHONY : src/sink.s
+
+# target to generate assembly for a file
+src/sink.cpp.s:
+	$(MAKE) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/src/sink.cpp.s
+.PHONY : src/sink.cpp.s
+
 test.o: test.cc.o
 
 .PHONY : test.o
@@ -159,6 +307,22 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... log"
+	@echo "... src/buffer.o"
+	@echo "... src/buffer.i"
+	@echo "... src/buffer.s"
+	@echo "... src/format.o"
+	@echo "... src/format.i"
+	@echo "... src/format.s"
+	@echo "... src/log.o"
+	@echo "... src/log.i"
+	@echo "... src/log.s"
+	@echo "... src/loop.o"
+	@echo "... src/loop.i"
+	@echo "... src/loop.s"
+	@echo "... src/sink.o"
+	@echo "... src/sink.i"
+	@echo "... src/sink.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

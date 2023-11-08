@@ -1,3 +1,4 @@
 /home/tencent/project/cppcode/DockerWebServerFullStack/Log/build/CMakeFiles/rebuild_cache.dir
 /home/tencent/project/cppcode/DockerWebServerFullStack/Log/build/CMakeFiles/edit_cache.dir
 /home/tencent/project/cppcode/DockerWebServerFullStack/Log/build/CMakeFiles/test.dir
+/home/tencent/project/cppcode/DockerWebServerFullStack/Log/build/CMakeFiles/log.dir
