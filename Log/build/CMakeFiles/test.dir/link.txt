@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/test.dir/test.cc.o  -o test  -Wl,-rpath,/home/tencent/project/cppcode/DockerWebServerFullStack/Log/build liblog.so -lpthread 

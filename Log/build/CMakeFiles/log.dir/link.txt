@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,liblog.so -o liblog.so CMakeFiles/log.dir/src/buffer.cpp.o CMakeFiles/log.dir/src/format.cpp.o CMakeFiles/log.dir/src/log.cpp.o CMakeFiles/log.dir/src/loop.cpp.o CMakeFiles/log.dir/src/sink.cpp.o 
