@@ -1,0 +1,5 @@
+aux_source_directory(./src SRC_LIST)
+include_directories(./include)
+
+
+add_library(QtTCPServer SHARED ${SRC_LIST})

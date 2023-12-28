@@ -50,3 +50,9 @@ BuildBase a;
 BuildBase *p = new Mode1;
 a.build(p);
 ```
+
+
+# Async vs Sync:
+
+对于多线程(5000)的读写打印请求，提升20%的运行时间。
+分析：1. 异步执行能够加快线程释放速度，避免阻塞于读写 2. 数据延迟回写，减少IO调用次数。
